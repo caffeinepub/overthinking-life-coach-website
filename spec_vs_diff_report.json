@@ -1,0 +1,71 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-26T08:17:27.824Z",
+  "summary": "The diff implements a comprehensive single-page React coaching website covering nearly all specified requirements. All six sections (Hero, About, Services, Testimonials, FAQ, Contact) are present with appropriate content, saffron theming, SEO metadata, responsive navbar, and footer. The implementation is thorough and well-aligned with the build request. Minor gaps exist around the service icons image asset usage.",
+  "missing_requirements": [
+    {
+      "requirement": "Each service card should use the generated minimalist saffron and indigo abstract icon set image (service-icons.dim_512x512.png) for icons",
+      "reason": "The Services component uses Lucide React icons (User, Users, Building2) rather than the specified generated image asset service-icons.dim_512x512.png that was explicitly requested in the images section.",
+      "evidence": [
+        "frontend/src/components/Services.tsx"
+      ]
+    }
+  ],
+  "hallucinated_features": [
+    {
+      "description": "Twitter Card meta tags added to the HTML head",
+      "reason": "The build request only specified Open Graph meta tags (og:title, og:description, og:type). Twitter Card tags were not requested but were implemented.",
+      "evidence": [
+        "frontend/index.html"
+      ]
+    },
+    {
+      "description": "Animated social proof stat strip in Hero section showing 200+ Professionals Coached, 5+ Years Experience, 95% Client Satisfaction",
+      "reason": "The build request did not specify a statistics or social proof strip in the Hero section beyond the trust indicator badge mentioning Bangalore.",
+      "evidence": [
+        "frontend/src/components/Hero.tsx"
+      ]
+    },
+    {
+      "description": "Internet Identity authentication infrastructure including useInternetIdentity and useActor hooks with QueryClientProvider wrapping",
+      "reason": "No backend, authentication, or user identity features were requested. The non-goals explicitly excluded user authentication and backend data persistence.",
+      "evidence": [
+        "frontend/src/hooks/useInternetIdentity.ts",
+        "frontend/src/hooks/useActor.ts",
+        "frontend/src/main.tsx"
+      ]
+    },
+    {
+      "description": "backend/main.mo Motoko actor file added",
+      "reason": "The build request explicitly stated no backend is required and listed no backend data persistence as a non-goal. A Motoko backend actor file was nevertheless added.",
+      "evidence": [
+        "backend/main.mo"
+      ]
+    }
+  ],
+  "confidence": 0.85,
+  "changed_files": [
+    "all_files_summary.json",
+    "backend/main.mo",
+    "frontend-file-summaries.txt",
+    "frontend/index.css",
+    "frontend/index.html",
+    "frontend/src/App.tsx",
+    "frontend/src/components/About.tsx",
+    "frontend/src/components/Contact.tsx",
+    "frontend/src/components/FAQ.tsx",
+    "frontend/src/components/Footer.tsx",
+    "frontend/src/components/Hero.tsx",
+    "frontend/src/components/Navbar.tsx",
+    "frontend/src/components/Services.tsx",
+    "frontend/src/components/Testimonials.tsx",
+    "frontend/src/hooks/useActor.ts",
+    "frontend/src/hooks/useInternetIdentity.ts",
+    "frontend/src/hooks/useQueries.ts",
+    "frontend/src/index.css",
+    "frontend/src/main.tsx",
+    "frontend/tailwind.config.js",
+    "project_state.json"
+  ]
+}

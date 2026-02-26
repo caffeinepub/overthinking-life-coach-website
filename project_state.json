@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Professional life coaching website for an Overthinking-focused practice in Bangalore, targeting mid-career professionals. SEO-optimized, inspired by coachshannonbeer.com, with saffron as the primary button/accent color, subtle blue/green/indigo gradients, and sections including Hero, About, Services, Testimonials, and Contact/CTA.",
+  "architectural_notes": [
+    "Primary button/accent color: saffron (#F4A300 or similar)",
+    "Gradient accents using blue, green, and indigo used sparingly",
+    "Design inspired by coachshannonbeer.com – clean, professional, conversion-focused",
+    "Target audience: mid-career professionals in Bangalore"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Warm, serene abstract hero background with soft light beams and calm textures evoking clarity and peace of mind, suitable for a coaching website (hero-bg.dim_1440x900.png)\n- Professional headshot placeholder silhouette with a warm saffron-tinted circular frame for the About section (coach-placeholder.dim_400x400.png)\n- Minimalist saffron and indigo abstract icon set: three icons representing 1-on-1 coaching, group sessions, and corporate workshops (service-icons.dim_512x512.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-full-single-page-react-website-for-a-life-coach-specializing-in-overthinking-based-in-bangalore-targeting-mid-career-professionals-the-site-must-include-the-following-sections-in-order-hero-about-services-testimonials-faq-and-contact-cta-structure-the-layout-and-content-hierarchy-inspired-by-coachshannonbeer-com-clean-warm-professional-trust-building-with-ample-whitespace-and-a-calm-authority-tone",
+      "title": "Create a full single-page React website for a Life Coach specializing in Overthinking, based in Bangalore, targeting mid-career professionals. The site must include the following sections in order: Hero, About, Services, Testimonials, FAQ, and Contact/CTA. Structure the layout and content hierarchy inspired by coachshannonbeer.com – clean, warm, professional, trust-building, with ample whitespace and a calm authority tone.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-cohesive-visual-theme-with-saffron-f4a724-or-close-warm-saffron-as-the-primary-color-for-all-cta-buttons-highlights-and-key-accents-use-subtle-blue-to-indigo-or-green-to-indigo-gradients-sparingly-e-g-section-backgrounds-dividers-or-decorative-elements-the-base-palette-should-be-warm-off-white-cream-backgrounds-with-dark-charcoal-text-for-readability-typography-should-be-elegant-and-professional-e-g-serif-for-headings-clean-sans-serif-for-body",
+      "title": "Apply a cohesive visual theme with saffron (#F4A724 or close warm saffron) as the primary color for all CTA buttons, highlights, and key accents. Use subtle blue-to-indigo or green-to-indigo gradients sparingly (e.g., section backgrounds, dividers, or decorative elements). The base palette should be warm off-white/cream backgrounds with dark charcoal text for readability. Typography should be elegant and professional (e.g., serif for headings, clean sans-serif for body).",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-hero-section-with-a-bold-empathetic-headline-targeting-mid-career-professionals-who-overthink-e-g-stop-overthinking-start-living-your-best-career-include-a-subheadline-a-saffron-cta-button-book-a-free-discovery-call-and-a-professional-hero-image-or-gradient-background-add-a-subtle-trust-indicator-e-g-based-in-bangalore-coaching-professionals-worldwide",
+      "title": "Build the Hero section with a bold, empathetic headline targeting mid-career professionals who overthink (e.g., 'Stop Overthinking. Start Living Your Best Career.'). Include a subheadline, a saffron CTA button ('Book a Free Discovery Call'), and a professional hero image or gradient background. Add a subtle trust indicator (e.g., 'Based in Bangalore | Coaching Professionals Worldwide').",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-about-section-introducing-the-life-coach-as-an-expert-in-helping-mid-career-professionals-overcome-overthinking-include-a-placeholder-professional-photo-slot-a-personal-story-narrative-credentials-approach-highlights-and-a-secondary-saffron-cta-use-a-warm-human-tone-that-builds-trust",
+      "title": "Build the About section introducing the life coach as an expert in helping mid-career professionals overcome overthinking. Include a placeholder professional photo slot, a personal story narrative, credentials/approach highlights, and a secondary saffron CTA. Use a warm, human tone that builds trust.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-services-section-showcasing-at-least-3-coaching-offerings-relevant-to-overcoming-overthinking-for-mid-career-professionals-e-g-1-1-coaching-group-program-corporate-workshop-each-service-card-should-have-an-icon-title-short-description-and-a-saffron-learn-more-or-get-started-button-use-a-subtle-blue-to-indigo-gradient-as-the-section-background",
+      "title": "Build a Services section showcasing at least 3 coaching offerings relevant to overcoming overthinking for mid-career professionals (e.g., 1:1 Coaching, Group Program, Corporate Workshop). Each service card should have an icon, title, short description, and a saffron 'Learn More' or 'Get Started' button. Use a subtle blue-to-indigo gradient as the section background.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-testimonials-section-with-at-least-3-placeholder-client-testimonials-from-mid-career-professionals-include-name-role-industry-a-short-quote-about-overcoming-overthinking-and-a-star-rating-use-a-carousel-or-grid-layout-add-a-subtle-green-to-indigo-gradient-accent-on-this-section",
+      "title": "Build a Testimonials section with at least 3 placeholder client testimonials from mid-career professionals. Include name, role/industry, a short quote about overcoming overthinking, and a star rating. Use a carousel or grid layout. Add a subtle green-to-indigo gradient accent on this section.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-faq-section-addressing-common-questions-a-mid-career-professional-might-have-before-hiring-an-overthinking-life-coach-e-g-what-is-life-coaching-how-many-sessions-do-i-need-do-you-coach-online-or-in-bangalore-implement-as-an-accessible-accordion-component",
+      "title": "Build a FAQ section addressing common questions a mid-career professional might have before hiring an overthinking life coach (e.g., 'What is life coaching?', 'How many sessions do I need?', 'Do you coach online or in Bangalore?'). Implement as an accessible accordion component.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-contact-cta-section-at-the-bottom-of-the-page-with-a-prominent-headline-e-g-ready-to-quiet-the-noise-a-saffron-book-a-free-discovery-call-button-and-a-simple-contact-form-with-fields-name-email-phone-optional-and-a-short-message-also-display-the-coach-s-bangalore-location",
+      "title": "Build a Contact/CTA section at the bottom of the page with a prominent headline (e.g., 'Ready to Quiet the Noise?'), a saffron 'Book a Free Discovery Call' button, and a simple contact form with fields: Name, Email, Phone (optional), and a short message. Also display the coach's Bangalore location.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-full-on-page-seo-optimization-throughout-the-website-1-set-a-descriptive-keyword-rich-title-tag-e-g-life-coach-for-overthinking-bangalore-mid-career-professionals-2-add-a-compelling-meta-name-description-tag-3-include-open-graph-meta-tags-og-title-og-description-og-type-4-use-proper-semantic-html5-elements-header-nav-main-section-article-footer-with-appropriate-aria-labels-5-use-a-single-h1-in-the-hero-with-h2-for-section-headings-and-h3-for-sub-items-6-add-json-ld-structured-data-for-a-localbusiness-schema-with-bangalore-address-and-coaching-service-type-7-ensure-all-images-have-descriptive-alt-attributes-8-add-a-canonical-link-tag",
+      "title": "Implement full on-page SEO optimization throughout the website: (1) Set a descriptive, keyword-rich <title> tag (e.g., 'Life Coach for Overthinking | Bangalore | Mid-Career Professionals'); (2) Add a compelling <meta name='description'> tag; (3) Include Open Graph meta tags (og:title, og:description, og:type); (4) Use proper semantic HTML5 elements: <header>, <nav>, <main>, <section>, <article>, <footer> with appropriate ARIA labels; (5) Use a single <h1> in the Hero, with <h2> for section headings and <h3> for sub-items; (6) Add JSON-LD structured data for a LocalBusiness schema with Bangalore address and coaching service type; (7) Ensure all images have descriptive alt attributes; (8) Add a canonical link tag.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-sticky-navigation-bar-at-the-top-with-the-coach-s-name-brand-navigation-links-to-each-section-home-about-services-testimonials-faq-contact-and-a-saffron-book-a-call-cta-button-the-navbar-should-be-accessible-and-collapse-into-a-hamburger-menu-on-mobile",
+      "title": "Add a sticky navigation bar at the top with the coach's name/brand, navigation links to each section (Home, About, Services, Testimonials, FAQ, Contact), and a saffron 'Book a Call' CTA button. The navbar should be accessible and collapse into a hamburger menu on mobile.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-footer-with-the-coach-s-name-a-short-tagline-quick-links-to-all-sections-social-media-placeholder-icons-linkedin-instagram-copyright-notice-with-current-year-and-bangalore-location-mention",
+      "title": "Add a footer with the coach's name, a short tagline, quick links to all sections, social media placeholder icons (LinkedIn, Instagram), copyright notice with current year, and Bangalore location mention.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Hero section with compelling headline targeting mid-career professionals",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "About section introducing the life coach and Overthinking focus",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Services section describing coaching offerings",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Testimonials section for social proof",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Contact/CTA section to convert visitors into clients",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "SEO optimization including meta tags, structured data, and semantic HTML",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Overthinking Life Coach Website",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

@@ -1,0 +1,278 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-26T08:17:27.827Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 11,
+    "implemented": 11,
+    "items": [
+      {
+        "id": "REQ-1",
+        "summary": "Create a full single-page React website for a Life Coach specializing in Overthinking, based in Bangalore, targeting mid-career professionals. The site must include the following sections in order: Hero, About, Services, Testimonials, FAQ, and Contact/CTA. Structure the layout and content hierarchy inspired by coachshannonbeer.com – clean, warm, professional, trust-building, with ample whitespace and a calm authority tone.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/App.tsx",
+          "frontend/src/components/Hero.tsx",
+          "frontend/src/components/About.tsx",
+          "frontend/src/components/Services.tsx",
+          "frontend/src/components/Testimonials.tsx",
+          "frontend/src/components/FAQ.tsx",
+          "frontend/src/components/Contact.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/App.tsx",
+          "frontend/src/components/Hero.tsx",
+          "frontend/src/components/About.tsx",
+          "frontend/src/components/Services.tsx",
+          "frontend/src/components/Testimonials.tsx",
+          "frontend/src/components/FAQ.tsx",
+          "frontend/src/components/Contact.tsx"
+        ]
+      },
+      {
+        "id": "REQ-10",
+        "summary": "Add a sticky navigation bar at the top with the coach's name/brand, navigation links to each section (Home, About, Services, Testimonials, FAQ, Contact), and a saffron 'Book a Call' CTA button. The navbar should be accessible and collapse into a hamburger menu on mobile.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Navbar.tsx",
+          "frontend/src/App.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Navbar.tsx",
+          "frontend/src/App.tsx"
+        ]
+      },
+      {
+        "id": "REQ-11",
+        "summary": "Add a footer with the coach's name, a short tagline, quick links to all sections, social media placeholder icons (LinkedIn, Instagram), copyright notice with current year, and Bangalore location mention.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Footer.tsx",
+          "frontend/src/App.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Footer.tsx",
+          "frontend/src/App.tsx"
+        ]
+      },
+      {
+        "id": "REQ-2",
+        "summary": "Apply a cohesive visual theme with saffron (#F4A724 or close warm saffron) as the primary color for all CTA buttons, highlights, and key accents. Use subtle blue-to-indigo or green-to-indigo gradients sparingly (e.g., section backgrounds, dividers, or decorative elements). The base palette should be warm off-white/cream backgrounds with dark charcoal text for readability. Typography should be elegant and professional (e.g., serif for headings, clean sans-serif for body).",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/tailwind.config.js",
+          "frontend/src/index.css"
+        ],
+        "matchedFiles": [
+          "frontend/tailwind.config.js",
+          "frontend/src/index.css"
+        ]
+      },
+      {
+        "id": "REQ-3",
+        "summary": "Build the Hero section with a bold, empathetic headline targeting mid-career professionals who overthink (e.g., 'Stop Overthinking. Start Living Your Best Career.'). Include a subheadline, a saffron CTA button ('Book a Free Discovery Call'), and a professional hero image or gradient background. Add a subtle trust indicator (e.g., 'Based in Bangalore | Coaching Professionals Worldwide').",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Hero.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Hero.tsx"
+        ]
+      },
+      {
+        "id": "REQ-4",
+        "summary": "Build the About section introducing the life coach as an expert in helping mid-career professionals overcome overthinking. Include a placeholder professional photo slot, a personal story narrative, credentials/approach highlights, and a secondary saffron CTA. Use a warm, human tone that builds trust.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/About.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/About.tsx"
+        ]
+      },
+      {
+        "id": "REQ-5",
+        "summary": "Build a Services section showcasing at least 3 coaching offerings relevant to overcoming overthinking for mid-career professionals (e.g., 1:1 Coaching, Group Program, Corporate Workshop). Each service card should have an icon, title, short description, and a saffron 'Learn More' or 'Get Started' button. Use a subtle blue-to-indigo gradient as the section background.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Services.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Services.tsx"
+        ]
+      },
+      {
+        "id": "REQ-6",
+        "summary": "Build a Testimonials section with at least 3 placeholder client testimonials from mid-career professionals. Include name, role/industry, a short quote about overcoming overthinking, and a star rating. Use a carousel or grid layout. Add a subtle green-to-indigo gradient accent on this section.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Testimonials.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Testimonials.tsx"
+        ]
+      },
+      {
+        "id": "REQ-7",
+        "summary": "Build a FAQ section addressing common questions a mid-career professional might have before hiring an overthinking life coach (e.g., 'What is life coaching?', 'How many sessions do I need?', 'Do you coach online or in Bangalore?'). Implement as an accessible accordion component.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/FAQ.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/FAQ.tsx"
+        ]
+      },
+      {
+        "id": "REQ-8",
+        "summary": "Build a Contact/CTA section at the bottom of the page with a prominent headline (e.g., 'Ready to Quiet the Noise?'), a saffron 'Book a Free Discovery Call' button, and a simple contact form with fields: Name, Email, Phone (optional), and a short message. Also display the coach's Bangalore location.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Contact.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Contact.tsx"
+        ]
+      },
+      {
+        "id": "REQ-9",
+        "summary": "Implement full on-page SEO optimization throughout the website: (1) Set a descriptive, keyword-rich <title> tag (e.g., 'Life Coach for Overthinking | Bangalore | Mid-Career Professionals'); (2) Add a compelling <meta name='description'> tag; (3) Include Open Graph meta tags (og:title, og:description, og:type); (4) Use proper semantic HTML5 elements: <header>, <nav>, <main>, <section>, <article>, <footer> with appropriate ARIA labels; (5) Use a single <h1> in the Hero, with <h2> for section headings and <h3> for sub-items; (6) Add JSON-LD structured data for a LocalBusiness schema with Bangalore address and coaching service type; (7) Ensure all images have descriptive alt attributes; (8) Add a canonical link tag.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/index.html",
+          "frontend/src/App.tsx",
+          "frontend/src/components/Hero.tsx",
+          "frontend/src/components/About.tsx",
+          "frontend/src/components/Services.tsx",
+          "frontend/src/components/Testimonials.tsx",
+          "frontend/src/components/FAQ.tsx",
+          "frontend/src/components/Contact.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/index.html",
+          "frontend/src/App.tsx",
+          "frontend/src/components/Hero.tsx",
+          "frontend/src/components/About.tsx",
+          "frontend/src/components/Services.tsx",
+          "frontend/src/components/Testimonials.tsx",
+          "frontend/src/components/FAQ.tsx",
+          "frontend/src/components/Contact.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "backend/main.mo",
+    "build-request.json",
+    "build-template/Dockerfile",
+    "build-template/LICENSE",
+    "build-template/README.md",
+    "build-template/deploy.sh",
+    "build-template/icp.yaml",
+    "build-template/package.json",
+    "build-template/pnpm-lock.yaml",
+    "build-template/pnpm-workspace.yaml",
+    "build-template/scripts/prune-unused-images.js",
+    "build-template/scripts/resize-images.js",
+    "build-template/src/backend/canister.yaml",
+    "build-template/src/backend/system-idl/aaaaa-aa.did",
+    "build-template/src/frontend/canister.yaml",
+    "build-template/src/frontend/components.json",
+    "build-template/src/frontend/env.json",
+    "build-template/src/frontend/eslint-rules/no-bigint-in-query-keys.js",
+    "build-template/src/frontend/eslint-rules/require-internet-identity-provider.js",
+    "build-template/src/frontend/eslint.config.js",
+    "build-template/src/frontend/package.json",
+    "build-template/src/frontend/postcss.config.js",
+    "build-template/src/frontend/src/components/ui/accordion.tsx",
+    "build-template/src/frontend/src/components/ui/alert-dialog.tsx",
+    "build-template/src/frontend/src/components/ui/alert.tsx",
+    "build-template/src/frontend/src/components/ui/aspect-ratio.tsx",
+    "build-template/src/frontend/src/components/ui/avatar.tsx",
+    "build-template/src/frontend/src/components/ui/badge.tsx",
+    "build-template/src/frontend/src/components/ui/breadcrumb.tsx",
+    "build-template/src/frontend/src/components/ui/button.tsx",
+    "build-template/src/frontend/src/components/ui/calendar.tsx",
+    "build-template/src/frontend/src/components/ui/card.tsx",
+    "build-template/src/frontend/src/components/ui/carousel.tsx",
+    "build-template/src/frontend/src/components/ui/chart.tsx",
+    "build-template/src/frontend/src/components/ui/checkbox.tsx",
+    "build-template/src/frontend/src/components/ui/collapsible.tsx",
+    "build-template/src/frontend/src/components/ui/command.tsx",
+    "build-template/src/frontend/src/components/ui/context-menu.tsx",
+    "build-template/src/frontend/src/components/ui/dialog.tsx",
+    "build-template/src/frontend/src/components/ui/drawer.tsx",
+    "build-template/src/frontend/src/components/ui/dropdown-menu.tsx",
+    "build-template/src/frontend/src/components/ui/form.tsx",
+    "build-template/src/frontend/src/components/ui/hover-card.tsx",
+    "build-template/src/frontend/src/components/ui/input-otp.tsx",
+    "build-template/src/frontend/src/components/ui/input.tsx",
+    "build-template/src/frontend/src/components/ui/label.tsx",
+    "build-template/src/frontend/src/components/ui/menubar.tsx",
+    "build-template/src/frontend/src/components/ui/navigation-menu.tsx",
+    "build-template/src/frontend/src/components/ui/pagination.tsx",
+    "build-template/src/frontend/src/components/ui/popover.tsx",
+    "build-template/src/frontend/src/components/ui/progress.tsx",
+    "build-template/src/frontend/src/components/ui/radio-group.tsx",
+    "build-template/src/frontend/src/components/ui/resizable.tsx",
+    "build-template/src/frontend/src/components/ui/scroll-area.tsx",
+    "build-template/src/frontend/src/components/ui/select.tsx",
+    "build-template/src/frontend/src/components/ui/separator.tsx",
+    "build-template/src/frontend/src/components/ui/sheet.tsx",
+    "build-template/src/frontend/src/components/ui/sidebar.tsx",
+    "build-template/src/frontend/src/components/ui/skeleton.tsx",
+    "build-template/src/frontend/src/components/ui/slider.tsx",
+    "build-template/src/frontend/src/components/ui/sonner.tsx",
+    "build-template/src/frontend/src/components/ui/switch.tsx",
+    "build-template/src/frontend/src/components/ui/table.tsx",
+    "build-template/src/frontend/src/components/ui/tabs.tsx",
+    "build-template/src/frontend/src/components/ui/textarea.tsx",
+    "build-template/src/frontend/src/components/ui/toggle-group.tsx",
+    "build-template/src/frontend/src/components/ui/toggle.tsx",
+    "build-template/src/frontend/src/components/ui/tooltip.tsx",
+    "build-template/src/frontend/src/hooks/use-mobile.tsx",
+    "build-template/src/frontend/src/lib/utils.ts",
+    "build-template/src/frontend/tsconfig.json",
+    "build-template/src/frontend/vite.config.js",
+    "build-template/tsconfig.json",
+    "caffeine.lock.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/index.css",
+    "frontend/index.html",
+    "frontend/public/assets/generated/coach-placeholder.dim_400x400.png",
+    "frontend/public/assets/generated/hero-bg.dim_1440x900.png",
+    "frontend/public/assets/generated/service-icons.dim_512x512.png",
+    "frontend/src/App.tsx",
+    "frontend/src/backend.d.ts",
+    "frontend/src/backend.ts",
+    "frontend/src/components/About.tsx",
+    "frontend/src/components/Contact.tsx",
+    "frontend/src/components/FAQ.tsx",
+    "frontend/src/components/Footer.tsx",
+    "frontend/src/components/Hero.tsx",
+    "frontend/src/components/Navbar.tsx",
+    "frontend/src/components/Services.tsx",
+    "frontend/src/components/Testimonials.tsx",
+    "frontend/src/config.ts",
+    "frontend/src/declarations/backend.did.d.ts",
+    "frontend/src/declarations/backend.did.js",
+    "frontend/src/hooks/useActor.ts",
+    "frontend/src/hooks/useInternetIdentity.ts",
+    "frontend/src/hooks/useQueries.ts",
+    "frontend/src/index.css",
+    "frontend/src/main.tsx",
+    "frontend/src/ui-summary.json",
+    "frontend/src/utils/StorageClient.ts",
+    "frontend/tailwind.config.js",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

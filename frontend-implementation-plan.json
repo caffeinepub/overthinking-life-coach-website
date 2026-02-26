@@ -1,0 +1,272 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Life Coach for Overthinking – SEO-Optimized Draft Website (Bangalore)",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Create a full single-page React website with Hero, About, Services, Testimonials, FAQ, and Contact/CTA sections, styled with clean, warm, professional design inspired by coachshannonbeer.com, targeting mid-career professionals in Bangalore",
+      "acceptanceCriteria": [
+        "All six sections (Hero, About, Services, Testimonials, FAQ, Contact/CTA) are visible and scroll correctly on a single page",
+        "Layout and tone mirror the calm, professional, conversion-focused style of coachshannonbeer.com",
+        "Content explicitly calls out Bangalore location and mid-career professional audience",
+        "Site is fully responsive across mobile, tablet, and desktop"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Transform App.tsx into a single-page layout with all six sections: Hero, About, Services, Testimonials, FAQ, and Contact/CTA. Structure the layout with ample whitespace and a calm, professional tone. Ensure the page is fully responsive and scrollable."
+        },
+        {
+          "path": "frontend/src/components/Hero.tsx",
+          "operation": "create",
+          "description": "Create Hero section component with bold headline, subheadline, saffron CTA button, and background using the generated image frontend/public/assets/generated/hero-bg.dim_1440x900.png. Include trust indicator mentioning Bangalore."
+        },
+        {
+          "path": "frontend/src/components/About.tsx",
+          "operation": "create",
+          "description": "Create About section component with professional photo placeholder using frontend/public/assets/generated/coach-placeholder.dim_400x400.png, personal story narrative, credentials highlights, and secondary saffron CTA. Use warm, human tone building trust with mid-career professionals."
+        },
+        {
+          "path": "frontend/src/components/Services.tsx",
+          "operation": "create",
+          "description": "Create Services section component showcasing 3 coaching offerings with service cards. Each card includes icon from frontend/public/assets/generated/service-icons.dim_512x512.png, title, description, and saffron 'Learn More' button. Use subtle blue-to-indigo gradient as section background."
+        },
+        {
+          "path": "frontend/src/components/Testimonials.tsx",
+          "operation": "create",
+          "description": "Create Testimonials section component with 3 client testimonial cards in a responsive grid or carousel. Each card includes name, role/industry, quote about overcoming overthinking, and star rating. Add subtle green-to-indigo gradient accent."
+        },
+        {
+          "path": "frontend/src/components/FAQ.tsx",
+          "operation": "create",
+          "description": "Create FAQ section component with accessible accordion for at least 5 common questions about overthinking life coaching. Include questions relevant to mid-career professionals and Bangalore context. Use shadcn/ui Accordion component for accessibility."
+        },
+        {
+          "path": "frontend/src/components/Contact.tsx",
+          "operation": "create",
+          "description": "Create Contact/CTA section component with prominent headline, saffron 'Book a Free Discovery Call' button, and contact form with Name, Email, Phone (optional), and Message fields with basic validation. Display Bangalore location and show success message on form submission (frontend-only, no backend)."
+        }
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "summary": "Apply cohesive visual theme with saffron primary color for CTAs, subtle blue-to-indigo or green-to-indigo gradients sparingly, warm off-white/cream backgrounds, dark charcoal text, and elegant typography",
+      "acceptanceCriteria": [
+        "All primary CTA buttons use saffron color with appropriate hover state",
+        "Blue/green/indigo gradients appear in no more than 2–3 sections, used as backgrounds or decorative accents",
+        "No blue or purple used as dominant theme colors",
+        "Consistent typography with distinct heading and body styles throughout"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Extend Tailwind config with custom saffron color (#F4A724), warm off-white/cream background colors, dark charcoal text colors, and gradient definitions for blue-to-indigo and green-to-indigo. Configure serif font for headings and clean sans-serif for body."
+        },
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Define global CSS custom properties for saffron primary color, warm backgrounds, charcoal text, and gradient utilities. Import and configure serif and sans-serif font families. Set base typography styles for headings and body text with proper hierarchy."
+        }
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "summary": "Build Hero section with empathetic headline targeting mid-career professionals who overthink, saffron CTA button, and trust indicator mentioning Bangalore",
+      "acceptanceCriteria": [
+        "Hero section is full-viewport height on desktop",
+        "Headline is large, bold, and clearly addresses the overthinking pain point",
+        "Saffron CTA button is prominently displayed",
+        "Trust indicator mentioning Bangalore is visible"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Hero.tsx",
+          "operation": "modify",
+          "description": "Ensure Hero component is full-viewport height on desktop with bold empathetic headline (e.g., 'Stop Overthinking. Start Living Your Best Career.'), prominent saffron CTA button ('Book a Free Discovery Call'), and trust indicator ('Based in Bangalore | Coaching Professionals Worldwide'). Use the generated hero background image frontend/public/assets/generated/hero-bg.dim_1440x900.png."
+        }
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "summary": "Build About section introducing life coach expertise in helping mid-career professionals overcome overthinking, with photo placeholder, narrative, credentials, and secondary saffron CTA",
+      "acceptanceCriteria": [
+        "About section contains a photo placeholder, bio text, and highlighted credentials or methodology points",
+        "Tone is warm, credible, and relatable to mid-career professionals",
+        "A secondary CTA button in saffron is present"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/About.tsx",
+          "operation": "modify",
+          "description": "Ensure About component includes professional photo placeholder using frontend/public/assets/generated/coach-placeholder.dim_400x400.png, personal story with warm human tone, credentials/approach highlights relevant to overthinking and mid-career professionals, and a secondary saffron CTA button."
+        }
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "summary": "Build Services section with 3 coaching offerings, each with icon, title, description, and saffron CTA, using subtle blue-to-indigo gradient background",
+      "acceptanceCriteria": [
+        "At least 3 service cards are displayed in a responsive grid",
+        "Each card has icon, title, description, and saffron CTA",
+        "Section background uses a subtle blue/indigo gradient"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Services.tsx",
+          "operation": "modify",
+          "description": "Ensure Services component displays at least 3 service cards in a responsive grid (1-on-1 Coaching, Group Program, Corporate Workshop). Each card uses icons from frontend/public/assets/generated/service-icons.dim_512x512.png, includes title, short description, and saffron 'Learn More' button. Apply subtle blue-to-indigo gradient as section background."
+        }
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "summary": "Build Testimonials section with 3 client testimonial cards including name, role, quote, star rating, and green-to-indigo gradient accent",
+      "acceptanceCriteria": [
+        "At least 3 testimonial cards are displayed",
+        "Each testimonial includes name, role, quote, and star rating",
+        "Section uses a green/indigo gradient accent element"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Testimonials.tsx",
+          "operation": "modify",
+          "description": "Ensure Testimonials component displays at least 3 testimonial cards from mid-career professionals in a carousel or grid. Each card includes name, role/industry, quote about overcoming overthinking, and star rating. Add subtle green-to-indigo gradient accent element to the section."
+        }
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "summary": "Build FAQ section with accessible accordion addressing common questions about overthinking life coaching relevant to mid-career professionals and Bangalore context",
+      "acceptanceCriteria": [
+        "At least 5 FAQ items are shown in an accordion",
+        "Accordion opens/closes on click",
+        "Questions are relevant to the coaching niche and Bangalore context"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/FAQ.tsx",
+          "operation": "modify",
+          "description": "Ensure FAQ component implements an accessible accordion with at least 5 questions relevant to mid-career professionals considering an overthinking life coach (e.g., 'What is life coaching?', 'How many sessions do I need?', 'Do you coach online or in Bangalore?'). Use shadcn/ui Accordion component. Verify the component's usage instructions before implementing."
+        }
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "summary": "Build Contact/CTA section with prominent headline, saffron CTA button, contact form with validation, and Bangalore location display",
+      "acceptanceCriteria": [
+        "Contact form has Name, Email, Phone, and Message fields with basic validation",
+        "A large saffron CTA button is prominently placed above or alongside the form",
+        "Bangalore location is mentioned in the section",
+        "Form submission shows a success message (frontend only, no backend required)"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Contact.tsx",
+          "operation": "modify",
+          "description": "Ensure Contact component has prominent headline (e.g., 'Ready to Quiet the Noise?'), large saffron 'Book a Free Discovery Call' button, and contact form with Name, Email, Phone (optional), and Message fields with basic validation. Display Bangalore location. Show success message on form submission (frontend-only, no backend submission required)."
+        }
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "summary": "Implement full on-page SEO optimization with keyword-rich meta tags, Open Graph tags, semantic HTML5, proper heading hierarchy, JSON-LD LocalBusiness structured data, image alt attributes, and canonical link",
+      "acceptanceCriteria": [
+        "<title> and <meta description> are keyword-rich and relevant to overthinking life coaching in Bangalore",
+        "Open Graph tags are present in the <head>",
+        "Page uses semantic HTML5 landmarks throughout",
+        "Heading hierarchy is correct: one H1, multiple H2s, H3s as needed",
+        "JSON-LD LocalBusiness structured data block is present in the <head>",
+        "All images have non-empty alt attributes",
+        "A canonical <link> tag is present"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Add comprehensive SEO meta tags to <head>: keyword-rich <title> (e.g., 'Life Coach for Overthinking | Bangalore | Mid-Career Professionals'), compelling <meta name='description'>, Open Graph tags (og:title, og:description, og:type, og:image), canonical <link> tag, and JSON-LD structured data for LocalBusiness schema with Bangalore address and coaching service type."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Ensure App.tsx uses proper semantic HTML5 elements: <header> for navbar, <main> for main content, <section> for each major section with appropriate ARIA labels, and <footer> for footer. Verify single <h1> in Hero, <h2> for section headings, and <h3> for sub-items. Ensure all images have descriptive alt attributes."
+        },
+        {
+          "path": "frontend/src/components/Hero.tsx",
+          "operation": "modify",
+          "description": "Ensure Hero section uses a single <h1> element for the main headline and includes descriptive alt attribute for the hero background image."
+        },
+        {
+          "path": "frontend/src/components/About.tsx",
+          "operation": "modify",
+          "description": "Ensure About section uses <h2> for section heading and includes descriptive alt attribute for the coach photo placeholder image frontend/public/assets/generated/coach-placeholder.dim_400x400.png."
+        },
+        {
+          "path": "frontend/src/components/Services.tsx",
+          "operation": "modify",
+          "description": "Ensure Services section uses <h2> for section heading, <h3> for service card titles, and includes descriptive alt attributes for all service icons from frontend/public/assets/generated/service-icons.dim_512x512.png."
+        },
+        {
+          "path": "frontend/src/components/Testimonials.tsx",
+          "operation": "modify",
+          "description": "Ensure Testimonials section uses <h2> for section heading and <h3> for testimonial names if structured as headings."
+        },
+        {
+          "path": "frontend/src/components/FAQ.tsx",
+          "operation": "modify",
+          "description": "Ensure FAQ section uses <h2> for section heading and proper semantic structure within the accordion."
+        },
+        {
+          "path": "frontend/src/components/Contact.tsx",
+          "operation": "modify",
+          "description": "Ensure Contact section uses <h2> for section heading and proper form labels for accessibility."
+        }
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "summary": "Add sticky navigation bar with brand name, section links, saffron 'Book a Call' CTA, and mobile hamburger menu",
+      "acceptanceCriteria": [
+        "Navbar is sticky (fixed to top on scroll)",
+        "All section links scroll smoothly to the target section",
+        "Saffron 'Book a Call' button is visible in the navbar on desktop",
+        "Hamburger menu appears on mobile and toggles navigation links"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Navbar.tsx",
+          "operation": "create",
+          "description": "Create sticky Navbar component with coach's name/brand, navigation links to each section (Home, About, Services, Testimonials, FAQ, Contact) with smooth scroll behavior, and saffron 'Book a Call' CTA button. Implement responsive design with hamburger menu for mobile that toggles navigation links. Use shadcn/ui components for mobile menu if appropriate. Verify the component's usage instructions before implementing."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Wire Navbar component into the App layout at the top, ensuring it is fixed/sticky on scroll and all section links target the correct section IDs for smooth scrolling."
+        }
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "summary": "Add footer with brand name, tagline, section links, social media icons, copyright notice, and Bangalore location",
+      "acceptanceCriteria": [
+        "Footer contains brand name, tagline, section links, social icons, copyright, and location",
+        "Social icons are clickable placeholders",
+        "Footer is visually distinct from the main content"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "create",
+          "description": "Create Footer component with coach's name, short tagline, quick links to all sections, social media placeholder icons (LinkedIn, Instagram), copyright notice with current year, and Bangalore location mention. Ensure footer is visually distinct with appropriate styling."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Wire Footer component into the App layout at the bottom, after the Contact section."
+        }
+      ]
+    }
+  ]
+}

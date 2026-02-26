@@ -1,0 +1,23 @@
+{
+  "backend/main.mo": "Minimal Motoko actor file with an empty actor definition, serving as the backend entry point placeholder.",
+  "feature_evidence.json": "Feature evidence report mapping implemented features (site sections, visual theme, hero, etc.) to their corresponding source files, components, and test IDs with confidence levels.",
+  "frontend-file-summaries.txt": "JSON document containing one-sentence descriptions of each frontend source file, summarizing their purpose and notable implementation details.",
+  "frontend/index.css": "Tailwind CSS entry file defining OKLCH-based CSS custom properties for light and dark color themes, including background, foreground, card, and chart variables.",
+  "frontend/index.html": "SEO-optimized HTML entry point with meta tags, Open Graph/Twitter Card tags, JSON-LD LocalBusiness structured data for a Bangalore coaching practice, and Google Fonts imports.",
+  "frontend/src/App.tsx": "Root React component that composes the single-page layout by rendering Navbar, Hero, About, Services, Testimonials, FAQ, Contact, and Footer in a semantic structure.",
+  "frontend/src/components/About.tsx": "About section component displaying the coach's photo, personal narrative, ICF credentials list, and three approach cards with decorative background shapes.",
+  "frontend/src/components/Contact.tsx": "Contact section with a validated contact form (name, email, phone, message), a Free Discovery Call CTA linking to Calendly, and location/contact info display.",
+  "frontend/src/components/FAQ.tsx": "Renders a FAQ section using an accordion component with seven predefined questions and answers about life coaching services, targeting mid-career professionals.",
+  "frontend/src/components/Footer.tsx": "Renders the site footer with brand info, navigation quick links, social media icons, and a bottom bar with copyright and ICF credential notice.",
+  "frontend/src/components/Hero.tsx": "Renders the full-screen hero section with a background image, headline, subheadline, CTA buttons for booking and learning more, and a social proof stats strip.",
+  "frontend/src/components/Navbar.tsx": "Renders a fixed navigation bar with smooth-scroll links, a scroll-triggered background change, a desktop CTA button, and a collapsible mobile hamburger menu.",
+  "frontend/src/components/Services.tsx": "Renders a services section displaying three coaching offerings (1-on-1, group, corporate) as cards with icons, feature lists, and CTA buttons that scroll to the contact section.",
+  "frontend/src/components/Testimonials.tsx": "Renders a testimonials section with four client quotes, star ratings, and decorative gradient accents, displayed in a responsive two-column grid.",
+  "frontend/src/hooks/useActor.ts": "Custom hook that creates and caches an ICP backend actor (authenticated or anonymous) using React Query, and invalidates dependent queries when the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides an InternetIdentityProvider and useInternetIdentity hook for managing DFINITY Internet Identity authentication state, including login, logout, and identity persistence via AuthClient.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file kept for future backend query integration; exports nothing currently.",
+  "frontend/src/index.css": "Defines global CSS custom properties for the brand palette (saffron, cream, charcoal, gradients), Tailwind base/component/utility layers, and reusable component classes like btn-saffron and section-heading.",
+  "frontend/src/main.tsx": "Application entry point that mounts the React app wrapped with QueryClientProvider and InternetIdentityProvider.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration extending the theme with brand colors (saffron, cream, charcoal, indigo), custom fonts (Playfair Display, Lato), box shadows, border radii, and animation keyframes, plus typography and container-queries plugins.",
+  "project_state.json": "Tracks project state metadata including version, architectural notes, image requirements, and a list of implemented features for a life coaching single-page website targeting Bangalore professionals."
+}

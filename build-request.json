@@ -1,0 +1,221 @@
+{
+  "kind": "build_request",
+  "title": "Life Coach for Overthinking – SEO-Optimized Draft Website (Bangalore)",
+  "projectName": "Overthinking Coach",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a full single-page React website for a Life Coach specializing in Overthinking, based in Bangalore, targeting mid-career professionals. The site must include the following sections in order: Hero, About, Services, Testimonials, FAQ, and Contact/CTA. Structure the layout and content hierarchy inspired by coachshannonbeer.com – clean, warm, professional, trust-building, with ample whitespace and a calm authority tone.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Create a draft website for me (Life Coach for Overthining), I'm in Bangalore",
+          "Keep a reference website in mind: https://www.coachshannonbeer.com"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All six sections (Hero, About, Services, Testimonials, FAQ, Contact/CTA) are visible and scroll correctly on a single page",
+        "Layout and tone mirror the calm, professional, conversion-focused style of coachshannonbeer.com",
+        "Content explicitly calls out Bangalore location and mid-career professional audience",
+        "Site is fully responsive across mobile, tablet, and desktop"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Apply a cohesive visual theme with saffron (#F4A724 or close warm saffron) as the primary color for all CTA buttons, highlights, and key accents. Use subtle blue-to-indigo or green-to-indigo gradients sparingly (e.g., section backgrounds, dividers, or decorative elements). The base palette should be warm off-white/cream backgrounds with dark charcoal text for readability. Typography should be elegant and professional (e.g., serif for headings, clean sans-serif for body).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Keep a button color as saffron as theme",
+          "You can also use gradient blue / green / indigo color in fewer places"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All primary CTA buttons use saffron color with appropriate hover state",
+        "Blue/green/indigo gradients appear in no more than 2–3 sections, used as backgrounds or decorative accents",
+        "No blue or purple used as dominant theme colors",
+        "Consistent typography with distinct heading and body styles throughout"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Build the Hero section with a bold, empathetic headline targeting mid-career professionals who overthink (e.g., 'Stop Overthinking. Start Living Your Best Career.'). Include a subheadline, a saffron CTA button ('Book a Free Discovery Call'), and a professional hero image or gradient background. Add a subtle trust indicator (e.g., 'Based in Bangalore | Coaching Professionals Worldwide').",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "I help mid-career professionals"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section is full-viewport height on desktop",
+        "Headline is large, bold, and clearly addresses the overthinking pain point",
+        "Saffron CTA button is prominently displayed",
+        "Trust indicator mentioning Bangalore is visible"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Build the About section introducing the life coach as an expert in helping mid-career professionals overcome overthinking. Include a placeholder professional photo slot, a personal story narrative, credentials/approach highlights, and a secondary saffron CTA. Use a warm, human tone that builds trust.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "About section contains a photo placeholder, bio text, and highlighted credentials or methodology points",
+        "Tone is warm, credible, and relatable to mid-career professionals",
+        "A secondary CTA button in saffron is present"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Build a Services section showcasing at least 3 coaching offerings relevant to overcoming overthinking for mid-career professionals (e.g., 1:1 Coaching, Group Program, Corporate Workshop). Each service card should have an icon, title, short description, and a saffron 'Learn More' or 'Get Started' button. Use a subtle blue-to-indigo gradient as the section background.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "At least 3 service cards are displayed in a responsive grid",
+        "Each card has icon, title, description, and saffron CTA",
+        "Section background uses a subtle blue/indigo gradient"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Build a Testimonials section with at least 3 placeholder client testimonials from mid-career professionals. Include name, role/industry, a short quote about overcoming overthinking, and a star rating. Use a carousel or grid layout. Add a subtle green-to-indigo gradient accent on this section.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "At least 3 testimonial cards are displayed",
+        "Each testimonial includes name, role, quote, and star rating",
+        "Section uses a green/indigo gradient accent element"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Build a FAQ section addressing common questions a mid-career professional might have before hiring an overthinking life coach (e.g., 'What is life coaching?', 'How many sessions do I need?', 'Do you coach online or in Bangalore?'). Implement as an accessible accordion component.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "At least 5 FAQ items are shown in an accordion",
+        "Accordion opens/closes on click",
+        "Questions are relevant to the coaching niche and Bangalore context"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Build a Contact/CTA section at the bottom of the page with a prominent headline (e.g., 'Ready to Quiet the Noise?'), a saffron 'Book a Free Discovery Call' button, and a simple contact form with fields: Name, Email, Phone (optional), and a short message. Also display the coach's Bangalore location.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "I'm in Bangalore"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Contact form has Name, Email, Phone, and Message fields with basic validation",
+        "A large saffron CTA button is prominently placed above or alongside the form",
+        "Bangalore location is mentioned in the section",
+        "Form submission shows a success message (frontend only, no backend required)"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Implement full on-page SEO optimization throughout the website: (1) Set a descriptive, keyword-rich <title> tag (e.g., 'Life Coach for Overthinking | Bangalore | Mid-Career Professionals'); (2) Add a compelling <meta name='description'> tag; (3) Include Open Graph meta tags (og:title, og:description, og:type); (4) Use proper semantic HTML5 elements: <header>, <nav>, <main>, <section>, <article>, <footer> with appropriate ARIA labels; (5) Use a single <h1> in the Hero, with <h2> for section headings and <h3> for sub-items; (6) Add JSON-LD structured data for a LocalBusiness schema with Bangalore address and coaching service type; (7) Ensure all images have descriptive alt attributes; (8) Add a canonical link tag.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "create a website which is SEO enabled"
+        ]
+      },
+      "acceptanceCriteria": [
+        "<title> and <meta description> are keyword-rich and relevant to overthinking life coaching in Bangalore",
+        "Open Graph tags are present in the <head>",
+        "Page uses semantic HTML5 landmarks throughout",
+        "Heading hierarchy is correct: one H1, multiple H2s, H3s as needed",
+        "JSON-LD LocalBusiness structured data block is present in the <head>",
+        "All images have non-empty alt attributes",
+        "A canonical <link> tag is present"
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "text": "Add a sticky navigation bar at the top with the coach's name/brand, navigation links to each section (Home, About, Services, Testimonials, FAQ, Contact), and a saffron 'Book a Call' CTA button. The navbar should be accessible and collapse into a hamburger menu on mobile.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Navbar is sticky (fixed to top on scroll)",
+        "All section links scroll smoothly to the target section",
+        "Saffron 'Book a Call' button is visible in the navbar on desktop",
+        "Hamburger menu appears on mobile and toggles navigation links"
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "text": "Add a footer with the coach's name, a short tagline, quick links to all sections, social media placeholder icons (LinkedIn, Instagram), copyright notice with current year, and Bangalore location mention.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Footer contains brand name, tagline, section links, social icons, copyright, and location",
+        "Social icons are clickable placeholders",
+        "Footer is visually distinct from the main content"
+      ]
+    }
+  ],
+  "constraints": [
+    "Saffron must be used as the primary button and accent color throughout — do not substitute with blue or purple as dominant colors",
+    "Blue/green/indigo gradients must appear sparingly (2–3 sections maximum) as backgrounds or accents only",
+    "No backend required — contact form submission should be handled frontend-only with a success state",
+    "All content must be in English and appropriate for a professional life coaching brand"
+  ],
+  "nonGoals": [
+    "No actual booking/calendar integration (CTA buttons are UI only for this draft)",
+    "No backend data persistence or user authentication",
+    "No blog or CMS functionality",
+    "No payment processing",
+    "No real-time chat or messaging features",
+    "No multi-language support"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Warm, serene abstract hero background with soft light beams and calm textures evoking clarity and peace of mind, suitable for a coaching website (hero-bg.dim_1440x900.png)",
+      "Professional headshot placeholder silhouette with a warm saffron-tinted circular frame for the About section (coach-placeholder.dim_400x400.png)",
+      "Minimalist saffron and indigo abstract icon set: three icons representing 1-on-1 coaching, group sessions, and corporate workshops (service-icons.dim_512x512.png)"
+    ],
+    "edits": []
+  }
+}

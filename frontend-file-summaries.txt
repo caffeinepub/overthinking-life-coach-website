@@ -1,0 +1,15 @@
+{
+  "frontend/index.html": "SEO-optimized HTML entry point with comprehensive meta tags (title, description, Open Graph, Twitter Card), JSON-LD LocalBusiness structured data for Bangalore coaching practice, canonical link, and Google Fonts imports for Playfair Display and Lato.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring saffron primary, warm cream backgrounds, charcoal text, and brand gradient utilities; defines reusable component classes (btn-saffron, section-heading, card-hover) and sets Playfair Display/Lato typography.",
+  "frontend/tailwind.config.js": "Extended Tailwind config with custom brand colors (saffron, cream, charcoal, brand-indigo/blue/green), Playfair Display serif and Lato sans-serif font families, custom shadows (soft, card, saffron), and accordion animations.",
+  "frontend/src/App.tsx": "Root application component that assembles the single-page layout with semantic header/main/footer structure, importing and rendering all six section components plus Navbar and Footer.",
+  "frontend/src/components/Navbar.tsx": "Sticky navigation bar with brand name, smooth-scroll section links, saffron \"Book a Call\" CTA, scroll-aware background transition, and responsive hamburger menu for mobile.",
+  "frontend/src/components/Hero.tsx": "Full-viewport hero section with hero background image, bold H1 headline targeting overthinking mid-career professionals, saffron CTA buttons, Bangalore trust badge, and animated stat strip.",
+  "frontend/src/components/About.tsx": "About section with coach photo, personal narrative, credentials, and approach cards; replaced `flex-shrink-0` with `shrink-0` and escaped apostrophes in JSX text using HTML entities.",
+  "frontend/src/components/Services.tsx": "Services section with blue-to-indigo gradient background showcasing three coaching offerings as cards; fixed smart-quote parsing errors by switching string literals to double quotes, and replaced `flex-shrink-0` with `shrink-0`.",
+  "frontend/src/components/Testimonials.tsx": "Testimonials section with green-to-indigo gradient accent and four client testimonial cards; fixed smart-quote parsing errors in quote strings by switching to double-quoted string literals, and replaced `flex-shrink-0` with `shrink-0`.",
+  "frontend/src/components/FAQ.tsx": "FAQ section using shadcn/ui Accordion with seven questions relevant to overthinking coaching and Bangalore context, plus a bottom CTA card.",
+  "frontend/src/components/Contact.tsx": "Contact section with discovery call CTA, location info, and validated contact form; replaced `flex-shrink-0` with `shrink-0` and escaped apostrophes in JSX text using HTML entities.",
+  "frontend/src/components/Footer.tsx": "Dark charcoal footer with brand info, quick links, social icons, and caffeine.ai attribution; replaced `flex-shrink-0` with `shrink-0` and escaped special characters using HTML entities.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for React Query hooks; no backend queries needed for this static coaching website."
+}

@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+
+    /* === BRAND PALETTE === */
+    /* Saffron - primary CTA */
+    --saffron: 0.72 0.18 65;
+    --saffron-dark: 0.62 0.19 58;
+    --saffron-light: 0.88 0.12 72;
+
+    /* Warm cream / off-white backgrounds */
+    --cream: 0.98 0.01 85;
+    --cream-dark: 0.94 0.02 80;
+    --warm-white: 0.99 0.005 90;
+
+    /* Charcoal text */
+    --charcoal: 0.18 0.01 260;
+    --charcoal-light: 0.35 0.01 260;
+
+    /* Gradient accent colors */
+    --indigo: 0.42 0.14 265;
+    --blue-mid: 0.52 0.13 240;
+    --green-mid: 0.55 0.13 160;
+
+    /* Shadcn tokens */
+    --background: 0.98 0.01 85;
+    --foreground: 0.18 0.01 260;
+    --card: 0.99 0.005 90;
+    --card-foreground: 0.18 0.01 260;
+    --popover: 0.99 0.005 90;
+    --popover-foreground: 0.18 0.01 260;
+    --primary: 0.72 0.18 65;
+    --primary-foreground: 0.99 0.005 90;
+    --secondary: 0.94 0.02 80;
+    --secondary-foreground: 0.18 0.01 260;
+    --muted: 0.94 0.02 80;
+    --muted-foreground: 0.45 0.01 260;
+    --accent: 0.94 0.02 80;
+    --accent-foreground: 0.18 0.01 260;
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0 0;
+    --border: 0.88 0.02 80;
+    --input: 0.88 0.02 80;
+    --ring: 0.72 0.18 65;
+    --chart-1: 0.72 0.18 65;
+    --chart-2: 0.52 0.13 240;
+    --chart-3: 0.55 0.13 160;
+    --chart-4: 0.42 0.14 265;
+    --chart-5: 0.62 0.19 58;
+    --sidebar: 0.98 0.01 85;
+    --sidebar-foreground: 0.18 0.01 260;
+    --sidebar-primary: 0.72 0.18 65;
+    --sidebar-primary-foreground: 0.99 0.005 90;
+    --sidebar-accent: 0.94 0.02 80;
+    --sidebar-accent-foreground: 0.18 0.01 260;
+    --sidebar-border: 0.88 0.02 80;
+    --sidebar-ring: 0.72 0.18 65;
+  }
+
+  .dark {
+    --background: 0.14 0.01 260;
+    --foreground: 0.96 0.01 85;
+    --card: 0.18 0.01 260;
+    --card-foreground: 0.96 0.01 85;
+    --popover: 0.22 0.01 260;
+    --popover-foreground: 0.96 0.01 85;
+    --primary: 0.72 0.18 65;
+    --primary-foreground: 0.14 0.01 260;
+    --secondary: 0.22 0.01 260;
+    --secondary-foreground: 0.96 0.01 85;
+    --muted: 0.22 0.01 260;
+    --muted-foreground: 0.65 0.01 260;
+    --accent: 0.28 0.01 260;
+    --accent-foreground: 0.96 0.01 85;
+    --destructive: 0.704 0.191 22.216;
+    --destructive-foreground: 0.96 0.01 85;
+    --border: 1 0 0 / 10%;
+    --input: 1 0 0 / 15%;
+    --ring: 0.72 0.18 65;
+    --sidebar: 0.18 0.01 260;
+    --sidebar-foreground: 0.96 0.01 85;
+    --sidebar-primary: 0.72 0.18 65;
+    --sidebar-primary-foreground: 0.14 0.01 260;
+    --sidebar-accent: 0.22 0.01 260;
+    --sidebar-accent-foreground: 0.96 0.01 85;
+    --sidebar-border: 1 0 0 / 10%;
+    --sidebar-ring: 0.72 0.18 65;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Lato', 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+@layer components {
+  .btn-saffron {
+    @apply bg-saffron text-white font-semibold px-8 py-3 rounded-full
+           transition-all duration-300 hover:bg-saffron-dark hover:shadow-lg
+           hover:-translate-y-0.5 active:translate-y-0 focus:outline-none
+           focus:ring-2 focus:ring-saffron focus:ring-offset-2;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.04em;
+  }
+
+  .btn-saffron-outline {
+    @apply border-2 border-saffron text-saffron font-semibold px-8 py-3 rounded-full
+           transition-all duration-300 hover:bg-saffron hover:text-white hover:shadow-lg
+           hover:-translate-y-0.5 active:translate-y-0 focus:outline-none
+           focus:ring-2 focus:ring-saffron focus:ring-offset-2;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.04em;
+  }
+
+  .section-heading {
+    font-family: 'Playfair Display', Georgia, serif;
+    @apply text-3xl md:text-4xl lg:text-5xl font-semibold text-charcoal leading-tight;
+  }
+
+  .section-subheading {
+    font-family: 'Lato', sans-serif;
+    @apply text-lg text-charcoal-light leading-relaxed;
+  }
+
+  .gradient-blue-indigo {
+    background: linear-gradient(135deg, oklch(0.52 0.13 240) 0%, oklch(0.42 0.14 265) 100%);
+  }
+
+  .gradient-green-indigo {
+    background: linear-gradient(135deg, oklch(0.55 0.13 160) 0%, oklch(0.42 0.14 265) 100%);
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+}
